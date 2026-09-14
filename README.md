@@ -5,17 +5,29 @@ This repository contains intentionally adversarial MCP servers for authorized se
 All malicious behavior is simulated. The MCPs do not use real credentials, perform destructive actions, or send data externally.
 
 Test MCPs
+
 MCP	Attack Type
+
 capability_chaining.py	Capability chaining
+
 data_exfiltration.py	Data exfiltration
+
 indirect_injection.py	Indirect prompt injection
+
 malicious_resource.py	Malicious resource
+
 memory_poisoning.py	Memory poisoning
+
 privilege_escalation.py	Privilege escalation
+
 sensitive_data_solicitation.py	Sensitive-data solicitation
+
 tool_poisoning.py	Tool poisoning
+
 tool_shadowing.py	Tool shadowing
+
 GitHub Integration
+
 
 AI Defense uses the Cisco AI Defense GitHub App to scan MCP code hosted in GitHub.
 
