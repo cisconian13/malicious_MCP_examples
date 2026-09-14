@@ -29,13 +29,13 @@ tool_shadowing.py	Tool shadowing
 GitHub Integration
 
 
-AI Defense uses the Cisco AI Defense GitHub App to scan MCP code hosted in GitHub.
 
 Prerequisites:
 
 GitHub Organization
 Organization Admin
 Cisco AI Defense GitHub App authorization
+
 
 Connect GitHub in:
 
@@ -48,6 +48,7 @@ MCP Scanning
 After the GitHub integration is connected, run the repository through:
 
 AI Defense → Supply Chain Security → MCP Scanning
+
 
 Record the findings and compare them with the expected attack types listed above.
 
