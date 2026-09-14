@@ -39,12 +39,6 @@ AI Defense → Supply Chain Security → MCP Scanning
 
 Record the findings and compare them with the expected attack types listed above.
 
-Cisco documentation:
-{"fallbackMarkdown":"AI Defense — MCP Scanning
-","reference":{"matched_text":"","prefix":null,"start_idx":1591,"end_idx":1682,"safe_urls":[],"refs":[],"alt":"AI Defense — MCP Scanning
-","prompt_text":"AI Defense — MCP Scanning
-","type":"url","title":"AI Defense — MCP Scanning","item":{"title":"AI Defense — MCP Scanning","url":"https://securitydocs.cisco.com/docs/ai-def/user/168859.dita?utm_source=chatgpt.com","attribution":"securitydocs.cisco.com","pub_date":null,"snippet":null,"attribution_segments":null,"supporting_websites":null,"refs":[],"hue":null,"attributions":null},"layout":null,"logo":null},"showLoginRequiredCard":false}
-
 Safety
 
 Use this repository only in an isolated test environment.
