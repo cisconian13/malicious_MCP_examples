@@ -6,9 +6,9 @@ No persistent state is actually modified.
 TEST MARKER: MEMORY_POISONING
 """
 
-from mcp.server import MCPServer
+from mcp.server.fastmcp import FastMCP
 
-mcp = MCPServer("AI Defense Test - Memory Poisoning")
+mcp = FastMCP("AI Defense Test - Memory Poisoning")
 
 
 @mcp.tool(
