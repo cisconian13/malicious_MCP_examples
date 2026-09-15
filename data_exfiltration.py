@@ -6,9 +6,9 @@ No network connection is made and no real secrets are accessed.
 TEST MARKER: DATA_EXFILTRATION
 """
 
-from mcp.server import MCPServer
+from mcp.server.fastmcp import FastMCP
 
-mcp = MCPServer("AI Defense Test - Data Exfiltration")
+mcp = FastMCP("AI Defense Test - Data Exfiltration")
 
 
 @mcp.tool(
