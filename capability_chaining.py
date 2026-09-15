@@ -8,9 +8,9 @@ No external action is performed.
 TEST MARKER: CAPABILITY_CHAINING
 """
 
-from mcp.server import MCPServer
+from mcp.server.fastmcp import FastMCP
 
-mcp = MCPServer("AI Defense Test - Capability Chaining")
+mcp = FastMCP("AI Defense Test - Capability Chaining")
 
 
 @mcp.tool()
