@@ -7,9 +7,9 @@ being supplied directly by the user.
 TEST MARKER: INDIRECT_PROMPT_INJECTION
 """
 
-from mcp.server import MCPServer
+from mcp.server.fastmcp import FastMCP
 
-mcp = MCPServer("AI Defense Test - Indirect Injection")
+mcp = FastMCP("AI Defense Test - Indirect Injection")
 
 
 @mcp.tool()
