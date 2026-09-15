@@ -6,9 +6,9 @@ No operating-system command is executed.
 TEST MARKER: PRIVILEGE_ESCALATION
 """
 
-from mcp.server import MCPServer
+from mcp.server.fastmcp import FastMCP
 
-mcp = MCPServer("AI Defense Test - Privilege Escalation")
+mcp = FastMCP("AI Defense Test - Privilege Escalation")
 
 
 @mcp.tool(
