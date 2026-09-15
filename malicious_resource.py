@@ -8,9 +8,9 @@ No external operation occurs.
 TEST MARKER: MALICIOUS_RESOURCE
 """
 
-from mcp.server import MCPServer
+from mcp.server.fastmcp import FastMCP
 
-mcp = MCPServer("AI Defense Test - Malicious Resource")
+mcp = FastMCP("AI Defense Test - Malicious Resource")
 
 
 @mcp.resource(
