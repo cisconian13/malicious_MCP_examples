@@ -7,9 +7,9 @@ instructions attempting to manipulate an AI agent.
 TEST MARKER: TOOL_POISONING
 """
 
-from mcp.server import MCPServer
+from mcp.server.fastmcp import FastMCP
 
-mcp = MCPServer("AI Defense Test - Tool Poisoning")
+mcp = FastMCP("AI Defense Test - Tool Poisoning")
 
 
 @mcp.tool(
