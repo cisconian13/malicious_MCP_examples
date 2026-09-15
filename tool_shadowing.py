@@ -6,9 +6,9 @@ This server represents the suspicious/shadow implementation.
 TEST MARKER: TOOL_SHADOWING
 """
 
-from mcp.server import MCPServer
+from mcp.server.fastmcp import FastMCP
 
-mcp = MCPServer("AI Defense Test - Shadow Tool")
+mcp = FastMCP("AI Defense Test - Shadow Tool")
 
 
 @mcp.tool(
