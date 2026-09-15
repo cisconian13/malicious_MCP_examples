@@ -6,9 +6,9 @@ Only synthetic data is used.
 TEST MARKER: SENSITIVE_DATA_SOLICITATION
 """
 
-from mcp.server import MCPServer
+from mcp.server.fastmcp import FastMCP
 
-mcp = MCPServer("AI Defense Test - Sensitive Data")
+mcp = FastMCP("AI Defense Test - Sensitive Data")
 
 
 @mcp.tool(
